@@ -42,7 +42,7 @@ public class datosmotos {
         this.cilindraje2 = cilindraje;
         this.boton2 = botonm;
         //crear directorio
-        File archivo = new File("C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\REGISTER\\moto" + boton2 + ".txt");
+        File archivo = new File("C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\REGISTER\\moto" + boton2 + ".txt");
         FileWriter arc = new FileWriter(archivo);
         PrintWriter escribir = new PrintWriter(arc);
         escribir.println();
@@ -55,7 +55,7 @@ public class datosmotos {
     public void setBotonNUmeromotos(String botonm) throws IOException {
         this.boton2 = botonm;
 
-        File archivo2 = new File("C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\motos.txt");
+        File archivo2 = new File("C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\motos.txt");
         FileWriter arc2 = new FileWriter(archivo2);
         PrintWriter escribir2 = new PrintWriter(arc2);
 
@@ -70,7 +70,7 @@ public class datosmotos {
         this.segundos = segundos2;
         this.botont = botontt;
 
-        File archivo3 = new File("C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\TIMES/moto" + botont + ".txt");
+        File archivo3 = new File("C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\TIMES/moto" + botont + ".txt");
         FileWriter arc3 = new FileWriter(archivo3);
         PrintWriter escribir3 = new PrintWriter(arc3);
         String hor, min, seg;

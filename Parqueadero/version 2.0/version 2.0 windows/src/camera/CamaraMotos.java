@@ -220,7 +220,7 @@ public class CamaraMotos extends JFrame implements ActionListener, Runnable, Web
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == boton) {
             // get image
-            String numero2 = "C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\motos.txt";
+            String numero2 = "C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\motos.txt";
 
             File archivo2 = new File(numero2);
 
@@ -243,7 +243,7 @@ public class CamaraMotos extends JFrame implements ActionListener, Runnable, Web
 
             try {
                 // save image to PNG file
-                ImageIO.write(image, "jpg", new File("C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\PICTURES\\moto" + boton2 + ".jpg"));
+                ImageIO.write(image, "jpg", new File("C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\PICTURES\\moto" + boton2 + ".jpg"));
             } catch (IOException ex) {
                 Logger.getLogger(CamaraMotos.class.getName()).log(Level.SEVERE, null, ex);
             }

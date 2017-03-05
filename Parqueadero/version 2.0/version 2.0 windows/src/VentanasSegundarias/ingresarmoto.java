@@ -63,7 +63,7 @@ public class ingresarmoto extends datosmotos implements ActionListener,KeyListen
         if (e.getSource().equals(ingresar)) {
             //evento de guardar todo, foto e información
             //leer archivo para crear el otro archivo
-            String numero = "C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\motos.txt";
+            String numero = "C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\motos.txt";
             String textomar="";
             File archivo = new File(numero);
             datosmotos datos = new datosmotos();

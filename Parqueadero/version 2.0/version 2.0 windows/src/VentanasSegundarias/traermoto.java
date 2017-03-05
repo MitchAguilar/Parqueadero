@@ -35,7 +35,7 @@ public class traermoto extends datosmotos implements ActionListener, KeyListener
         public void paint(Graphics grafico) {
             Dimension height = getSize();
 
-            String numero = "C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\motos.txt";
+            String numero = "C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\motos.txt";
             String textomar = "";
             File archivo = new File(numero);
 
@@ -54,7 +54,7 @@ public class traermoto extends datosmotos implements ActionListener, KeyListener
             }
 
             //Se selecciona la imagen que tenemos en el paquete de la //ruta del programa
-            ImageIcon Img = new ImageIcon("C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\PICTURES\\moto" + textomar + ".jpg");
+            ImageIcon Img = new ImageIcon("C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\PICTURES\\moto" + textomar + ".jpg");
 
             //se dibuja la imagen que tenemos en el paquete Images //dentro de un panel
             grafico.drawImage(Img.getImage(), 0, 0, 755, 300, null);
@@ -197,7 +197,7 @@ public class traermoto extends datosmotos implements ActionListener, KeyListener
 
     public void info() {
         //leer archivo para crear el otro archivo
-        String numero = "C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\motos.txt";
+        String numero = "C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\motos.txt";
         String textomar = "";
         File archivo = new File(numero);
 
@@ -210,7 +210,7 @@ public class traermoto extends datosmotos implements ActionListener, KeyListener
             }
             //leer para mostrar
             datoscarros datos = new datoscarros();
-            String numero2 = "C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\REGISTER\\moto" + textomar + ".txt";
+            String numero2 = "C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\REGISTER\\moto" + textomar + ".txt";
 
             File archivo2 = new File(numero2);
 
@@ -237,7 +237,7 @@ public class traermoto extends datosmotos implements ActionListener, KeyListener
         }
         //esto es del tiempo
 
-        String numero2 = "C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\TIMES\\moto" + textomar + ".txt";
+        String numero2 = "C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\TIMES\\moto" + textomar + ".txt";
         File archivo2 = new File(numero2);
 
         try {

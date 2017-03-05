@@ -63,7 +63,7 @@ public class ingresarcarros implements ActionListener, KeyListener {
             //evento de guardar todo, foto e información
 
             //leer archivo para crear el otro archivo
-            String numero = "C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\CARROS\\carros.txt";
+            String numero = "C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\CARROS\\carros.txt";
             String textomar = "";
             File archivo = new File(numero);
 

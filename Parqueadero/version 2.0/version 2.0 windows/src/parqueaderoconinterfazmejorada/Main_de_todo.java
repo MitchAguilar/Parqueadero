@@ -1342,25 +1342,25 @@ public class Main_de_todo implements ActionListener {
     }
 
     public void CreatedFolder() {
-        File arc = new File("C:\\MITCODE");
-        File ArcProgram = new File("C:\\MITCODE\\PARQUEADERO");
+        File arc = new File("C:\\MITCHCODE");
+        File ArcProgram = new File("C:\\MITCHCODE\\PARQUEADERO");
 
         /*
             estrustura de la base de datos
          */
-        File BaseDeDatos = new File("C:\\MITCODE\\PARQUEADERO\\BaseDeDatos");
-        File Carros = new File("C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\CARROS");
-        File Motos = new File("C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS");
+        File BaseDeDatos = new File("C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos");
+        File Carros = new File("C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\CARROS");
+        File Motos = new File("C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS");
 
         //area de los carros
-        File PicturesCarros = new File("C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\CARROS\\PICTURES");
-        File RegisterCarros = new File("C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\CARROS\\REGISTER");
-        File TimesCarros = new File("C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\CARROS\\TIMES");
+        File PicturesCarros = new File("C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\CARROS\\PICTURES");
+        File RegisterCarros = new File("C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\CARROS\\REGISTER");
+        File TimesCarros = new File("C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\CARROS\\TIMES");
 
         //area de las motos
-        File PictureMotos = new File("C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\PICTURES");
-        File RegisterMotos = new File("C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\REGISTER");
-        File TimesMotos = new File("C:\\MITCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\TIMES");
+        File PictureMotos = new File("C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\PICTURES");
+        File RegisterMotos = new File("C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\REGISTER");
+        File TimesMotos = new File("C:\\MITCHCODE\\PARQUEADERO\\BaseDeDatos\\MOTOS\\TIMES");
 
         //Comprobaciones finales
         if (arc.exists() == false) {
