@@ -29,7 +29,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
-public class Main_de_todo implements ActionListener {
+public class Main implements ActionListener {
 
     public class Imagen extends javax.swing.JPanel {
 
@@ -611,7 +611,6 @@ public class Main_de_todo implements ActionListener {
             cout = cout + 1;
             if (cout % 2 == 0) {
                 ingresarcarros car = new ingresarcarros();
-                pc1.setBackground(Color.RED);
 
                 //datos de indice
                 datoscarros dato = new datoscarros();
@@ -619,12 +618,11 @@ public class Main_de_todo implements ActionListener {
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
 
             } else {
                 traercarro car2 = new traercarro();
-                pc1.setBackground(Color.GREEN);
 
                 //datos de indice
                 datoscarros dato = new datoscarros();
@@ -632,7 +630,7 @@ public class Main_de_todo implements ActionListener {
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
 
             }
@@ -646,19 +644,17 @@ public class Main_de_todo implements ActionListener {
             if (cout % 2 == 0) {
                 //dato.setBoton(2);
                 ingresarcarros car = new ingresarcarros();
-                pc2.setBackground(Color.RED);
                 //datos de indice
                 datoscarros dato = new datoscarros();
                 String cadena = "2";
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
 
             } else {
                 traercarro car2 = new traercarro();
-                pc2.setBackground(Color.GREEN);
 
                 //datos de indice
                 datoscarros dato = new datoscarros();
@@ -666,7 +662,7 @@ public class Main_de_todo implements ActionListener {
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (cout == 1000) {
@@ -686,13 +682,10 @@ public class Main_de_todo implements ActionListener {
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
-
-                pc3.setBackground(Color.RED);
             } else {
                 traercarro car2 = new traercarro();
-                pc3.setBackground(Color.GREEN);
 
                 //datos de indice
                 datoscarros dato = new datoscarros();
@@ -700,7 +693,7 @@ public class Main_de_todo implements ActionListener {
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (cout2 == 1000) {
@@ -715,7 +708,6 @@ public class Main_de_todo implements ActionListener {
             if (cout3 % 2 == 0) {
                 //dato.setBoton(4);
                 ingresarcarros car = new ingresarcarros();
-                pc4.setBackground(Color.RED);
 
                 //datos de indice
                 datoscarros dato = new datoscarros();
@@ -723,11 +715,10 @@ public class Main_de_todo implements ActionListener {
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traercarro car2 = new traercarro();
-                pc4.setBackground(Color.GREEN);
 
                 //datos de indice
                 datoscarros dato = new datoscarros();
@@ -735,7 +726,7 @@ public class Main_de_todo implements ActionListener {
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (cout3 == 1000) {
@@ -748,7 +739,6 @@ public class Main_de_todo implements ActionListener {
             if (cout4 % 2 == 0) {
                 //dato.setBoton(5);
                 ingresarcarros car = new ingresarcarros();
-                pc5.setBackground(Color.RED);
 
                 //datos de indice
                 datoscarros dato = new datoscarros();
@@ -756,11 +746,10 @@ public class Main_de_todo implements ActionListener {
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traercarro car2 = new traercarro();
-                pc5.setBackground(Color.GREEN);
 
                 //datos de indice
                 datoscarros dato = new datoscarros();
@@ -768,7 +757,7 @@ public class Main_de_todo implements ActionListener {
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (cout4 == 1000) {
@@ -783,7 +772,6 @@ public class Main_de_todo implements ActionListener {
             if (cout5 % 2 == 0) {
                 //dato.setBoton(6);
                 ingresarcarros car = new ingresarcarros();
-                pc6.setBackground(Color.RED);
 
                 //datos de indice
                 datoscarros dato = new datoscarros();
@@ -791,18 +779,17 @@ public class Main_de_todo implements ActionListener {
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traercarro car2 = new traercarro();
-                pc6.setBackground(Color.GREEN);
                 //datos de indice
                 datoscarros dato = new datoscarros();
                 String cadena = "6";
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (cout5 == 1000) {
@@ -817,25 +804,23 @@ public class Main_de_todo implements ActionListener {
             if (cout6 % 2 == 0) {
                 //dato.setBoton(7);
                 ingresarcarros car = new ingresarcarros();
-                pc7.setBackground(Color.RED);
                 //datos de indice
                 datoscarros dato = new datoscarros();
                 String cadena = "7";
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traercarro car2 = new traercarro();
-                pc7.setBackground(Color.GREEN);
                 //datos de indice
                 datoscarros dato = new datoscarros();
                 String cadena = "7";
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (cout6 == 1000) {
@@ -850,25 +835,23 @@ public class Main_de_todo implements ActionListener {
             if (cout7 % 2 == 0) {
                 //dato.setBoton(8);
                 ingresarcarros car = new ingresarcarros();
-                pc8.setBackground(Color.RED);
                 //datos de indice
                 datoscarros dato = new datoscarros();
                 String cadena = "8";
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traercarro car2 = new traercarro();
-                pc8.setBackground(Color.GREEN);
                 //datos de indice
                 datoscarros dato = new datoscarros();
                 String cadena = "8";
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (cout7 == 1000) {
@@ -883,25 +866,23 @@ public class Main_de_todo implements ActionListener {
             if (cout8 % 2 == 0) {
                 //dato.setBoton(9);
                 ingresarcarros car = new ingresarcarros();
-                pc9.setBackground(Color.RED);
                 //datos de indice
                 datoscarros dato = new datoscarros();
                 String cadena = "9";
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traercarro car2 = new traercarro();
-                pc9.setBackground(Color.GREEN);
                 //datos de indice
                 datoscarros dato = new datoscarros();
                 String cadena = "9";
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (cout8 == 1000) {
@@ -916,25 +897,23 @@ public class Main_de_todo implements ActionListener {
             if (cout9 % 2 == 0) {
                 //dato.setBoton(10);
                 ingresarcarros car = new ingresarcarros();
-                pc10.setBackground(Color.RED);
                 //datos de indice
                 datoscarros dato = new datoscarros();
                 String cadena = "10";
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traercarro car2 = new traercarro();
-                pc10.setBackground(Color.GREEN);
                 //datos de indice
                 datoscarros dato = new datoscarros();
                 String cadena = "10";
                 try {
                     dato.setBotonNUmero(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (cout9 == 1000) {
@@ -947,7 +926,6 @@ public class Main_de_todo implements ActionListener {
             coutm = coutm + 1;
             if (coutm % 2 == 0) {
                 ingresarmoto mo = new ingresarmoto();
-                pm1.setBackground(Color.RED);
 
                 //datos de indice
                 datosmotos dato = new datosmotos();
@@ -955,18 +933,17 @@ public class Main_de_todo implements ActionListener {
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traermoto mo2 = new traermoto();
-                pm1.setBackground(Color.GREEN);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "1";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (coutm == 1000) {
@@ -978,25 +955,23 @@ public class Main_de_todo implements ActionListener {
             coutm2 = coutm2 + 1;
             if (coutm2 % 2 == 0) {
                 ingresarmoto mo = new ingresarmoto();
-                pm2.setBackground(Color.RED);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "2";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traermoto mo2 = new traermoto();
-                pm2.setBackground(Color.GREEN);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "2";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (coutm2 == 1000) {
@@ -1008,25 +983,23 @@ public class Main_de_todo implements ActionListener {
             coutm3 = coutm3 + 1;
             if (coutm3 % 2 == 0) {
                 ingresarmoto mo = new ingresarmoto();
-                pm3.setBackground(Color.RED);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "3";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traermoto mo2 = new traermoto();
-                pm3.setBackground(Color.GREEN);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "3";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (coutm3 == 1000) {
@@ -1038,25 +1011,23 @@ public class Main_de_todo implements ActionListener {
             coutm4 = coutm4 + 1;
             if (coutm4 % 2 == 0) {
                 ingresarmoto mo = new ingresarmoto();
-                pm4.setBackground(Color.RED);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "4";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traermoto mo2 = new traermoto();
-                pm4.setBackground(Color.GREEN);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "4";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (coutm4 == 1000) {
@@ -1068,25 +1039,23 @@ public class Main_de_todo implements ActionListener {
             coutm5 = coutm5 + 1;
             if (coutm5 % 2 == 0) {
                 ingresarmoto mo = new ingresarmoto();
-                pm5.setBackground(Color.RED);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "5";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traermoto mo2 = new traermoto();
-                pm5.setBackground(Color.GREEN);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "5";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (coutm5 == 1000) {
@@ -1098,25 +1067,23 @@ public class Main_de_todo implements ActionListener {
             coutm6 = coutm6 + 1;
             if (coutm6 % 2 == 0) {
                 ingresarmoto mo = new ingresarmoto();
-                pm6.setBackground(Color.RED);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "6";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traermoto mo2 = new traermoto();
-                pm6.setBackground(Color.GREEN);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "6";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (coutm6 == 1000) {
@@ -1128,25 +1095,23 @@ public class Main_de_todo implements ActionListener {
             coutm7 = coutm7 + 1;
             if (coutm7 % 2 == 0) {
                 ingresarmoto mo = new ingresarmoto();
-                pm7.setBackground(Color.RED);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "7";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traermoto mo2 = new traermoto();
-                pm7.setBackground(Color.GREEN);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "7";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (coutm7 == 1000) {
@@ -1158,25 +1123,23 @@ public class Main_de_todo implements ActionListener {
             coutm8 = coutm8 + 1;
             if (coutm8 % 2 == 0) {
                 ingresarmoto mo = new ingresarmoto();
-                pm8.setBackground(Color.RED);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "8";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traermoto mo2 = new traermoto();
-                pm8.setBackground(Color.GREEN);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "8";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (coutm8 == 1000) {
@@ -1188,25 +1151,23 @@ public class Main_de_todo implements ActionListener {
             coutm9 = coutm9 + 1;
             if (coutm9 % 2 == 0) {
                 ingresarmoto mo = new ingresarmoto();
-                pm9.setBackground(Color.RED);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "9";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traermoto mo2 = new traermoto();
-                pm9.setBackground(Color.GREEN);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "9";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (coutm9 == 1000) {
@@ -1218,25 +1179,23 @@ public class Main_de_todo implements ActionListener {
             coutm10 = coutm10 + 1;
             if (coutm10 % 2 == 0) {
                 ingresarmoto mo = new ingresarmoto();
-                pm10.setBackground(Color.RED);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "10";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             } else {
                 traermoto mo2 = new traermoto();
-                pm10.setBackground(Color.GREEN);
                 //datos de indice
                 datosmotos dato = new datosmotos();
                 String cadena = "10";
                 try {
                     dato.setBotonNUmeromotos(cadena);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main_de_todo.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             if (coutm10 == 1000) {
@@ -1401,7 +1360,7 @@ public class Main_de_todo implements ActionListener {
     /*
         area del constructor
      */
-    public Main_de_todo() {
+    public Main() {
         CreatedFolder();
         crearpanel();
         crearbotones();
@@ -1421,6 +1380,6 @@ public class Main_de_todo implements ActionListener {
     area del main
      */
     public static void main(String[] arg) {
-        Main_de_todo ven = new Main_de_todo();
+        Main ven = new Main();
     }
 }

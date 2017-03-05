@@ -102,7 +102,8 @@ public class ingresarcarros implements ActionListener, KeyListener {
             } catch (InterruptedException ex) {
                 Logger.getLogger(CamaraCarros.class.getName()).log(Level.SEVERE, null, ex);
             }
-
+            //paint picture in content
+            
             ventana.dispose();
         }
         if (e.getSource().equals(cancelar)) {

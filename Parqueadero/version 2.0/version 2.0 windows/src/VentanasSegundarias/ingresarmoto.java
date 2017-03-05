@@ -106,6 +106,7 @@ public class ingresarmoto extends datosmotos implements ActionListener,KeyListen
             } catch (InterruptedException ex) {
                 Logger.getLogger(CamaraCarros.class.getName()).log(Level.SEVERE, null, ex);
             }
+            //paint picture in content
             ventana.dispose();
             
         }
